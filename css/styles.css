@@ -12,16 +12,67 @@ body{
 	justify-content: center;
 	color: white;
 	background-color: #ae946d;
-	align-items: center;
 	padding: 10px;
 	font-size: 13px;
 }
 
 .headerLeft img{
 	width: 60px;
+	margin: 0 0 0 20px;
 }
 
 .headerBottom{
 	position: sticky;
 	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #181818;
+	color: white;
+}
+
+.headerRight img{
+	width: 20px;
+	margin: 10px;
+}
+
+.headerRight{
+	display: flex;
+	margin: 0 30px 0 0;
+}
+
+.headerRow{
+	padding: 10px;
+}
+
+::placeholder{
+	color: #464646;
+	font-weight: 600;
+}
+
+.headerBottom input{
+	border: none;
+	background-color: #181818;
+}
+
+.searchBar{
+	border: 1px #464646 solid;
+}
+
+.first{
+	width: 1340px;
+}
+
+.freshFit{
+	position: relative;
+}
+
+.freshFitText{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 150px 200px 0 0;
+	color: white;
+	font-size: 36px;
+	font-weight: 800;
 }
