@@ -7,12 +7,27 @@ body{
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
 }
 
-.headerTop{
+.displayFlex{
 	display: flex;
+}
+
+.justifyCenter{
 	justify-content: center;
+}
+
+.colorWhite{
 	color: white;
+}
+
+.backgroundColor1{
 	background-color: #ae946d;
+}
+
+.padding10{
 	padding: 10px;
+}
+
+.fontSize13{
 	font-size: 13px;
 }
 
@@ -21,14 +36,32 @@ body{
 	margin: 0 0 0 20px;
 }
 
-.headerBottom{
+.sticky{
 	position: sticky;
+}
+
+.top{
 	top: 0;
-	display: flex;
+}
+
+.topFresh{
+	top: 26%;
+}
+
+.rightFresh{
+	right: 9%;
+}
+
+.alignCenter{
 	align-items: center;
+}
+
+.justifySpaceBetween{
 	justify-content: space-between;
+}
+
+.backgroundColor2{
 	background-color: #181818;
-	color: white;
 }
 
 .headerRight img{
@@ -36,8 +69,7 @@ body{
 	margin: 10px;
 }
 
-.headerRight{
-	display: flex;
+.marginLeft30{
 	margin: 0 30px 0 0;
 }
 
@@ -46,33 +78,102 @@ body{
 }
 
 ::placeholder{
-	color: #464646;
+	color: white;
 	font-weight: 600;
 }
 
 .headerBottom input{
 	border: none;
-	background-color: #181818;
+	background-color: black;
 }
 
-.searchBar{
+.border1{
 	border: 1px #464646 solid;
 }
 
 .first{
-	width: 1340px;
+	max-width: 100%;
 }
 
-.freshFit{
+.absolute{
+	position: absolute;
+}
+
+.fontSize36{
+	font-size: 36px;
+}
+
+.fontWeight{
+	font-weight: 600;
+}
+
+.relative{
 	position: relative;
 }
 
-.freshFitText{
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 150px 200px 0 0;
-	color: white;
-	font-size: 36px;
-	font-weight: 800;
+.textCenter{
+	text-align: center;
+}
+
+.fontSize18{
+	font-size: 18px;
+}
+
+.paddingMargin0{
+	padding: 0;
+	margin: 0;
+}
+
+.marginTop{
+	margin: 10px 5px 0 5px;
+}
+
+.fontSize12{
+	font-size: 12px;
+}
+
+.fontSize50{
+	font-size: 50px;
+}
+
+.topOutlet{
+	top: 22%;
+}
+
+.leftOutlet{
+	left: 10%
+}
+
+.backgroundColorBlack{
+	background-color: black;
+}
+
+.fontSize24{
+	font-size: 24px;
+}
+
+.widthShoes{
+	width: 300px;
+}
+
+.discountPercentage{
+	font-size: 10px;
+	background-color: #ba2026;
+	padding: 3px 8px 3px 8px;
+}
+
+.marginTopLeft10{
+	margin: 30px 20px 10px 20px;
+}
+
+.bottom{
+	bottom: 0;
+}
+
+.colorRed{
+	color: #ba2026;
+}
+.strike{
+	color: black;
+	font-weight: 100;
 }
