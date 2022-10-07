@@ -73,10 +73,6 @@ body{
 	margin: 0 30px 0 0;
 }
 
-.headerRow{
-	padding: 10px;
-}
-
 ::placeholder{
 	color: white;
 	font-weight: 600;
@@ -176,4 +172,72 @@ body{
 .strike{
 	color: black;
 	font-weight: 100;
+}
+
+.widthClub{
+	width: 420px;
+}
+
+.marginTop5{
+	margin: 5px 0 0 0;
+}
+
+.marginBottom{
+	margin: 0 0 50px 0;
+}
+
+.topSail{
+	top: 30%;
+}
+
+.leftSail{
+	left: 8%
+}
+
+.borderNone{
+	border: none;
+}
+
+.marginLeft{
+	margin: 0 0 0 30px;
+}
+
+.widthCar{
+	width: 430px;
+}
+
+.leftCar{
+	left: 10%;
+}
+
+.rightCar{
+	right: 10%;
+}
+
+.top5{
+	top: 5%;
+}
+
+.topBfc{
+	top: 38%;
+}
+
+.rightBfc{
+	right: 7%;
+}
+
+.icon{
+	width: 15px;
+}
+
+.topPuma{
+	margin: 70px 0 0 0;
+}
+
+.leftPuma{
+	left: 15%;
+} 
+
+.divHeight{
+	height: 250px;
 }
