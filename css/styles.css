@@ -23,6 +23,10 @@ body{
 	background-color: #ae946d;
 }
 
+.color1{
+	color: #ae946d;
+}
+
 .padding10{
 	padding: 10px;
 }
@@ -73,11 +77,6 @@ body{
 	margin: 0 30px 0 0;
 }
 
-::placeholder{
-	color: white;
-	font-weight: 600;
-}
-
 .headerBottom input{
 	border: none;
 	background-color: black;
@@ -85,6 +84,10 @@ body{
 
 .border1{
 	border: 1px #464646 solid;
+}
+
+.zIndex{
+	z-index: 1;
 }
 
 .first{
@@ -137,7 +140,7 @@ body{
 }
 
 .leftOutlet{
-	left: 10%
+	left: 10%;
 }
 
 .backgroundColorBlack{
@@ -191,7 +194,7 @@ body{
 }
 
 .leftSail{
-	left: 8%
+	left: 8%;
 }
 
 .borderNone{
@@ -242,6 +245,46 @@ body{
 	height: 250px;
 }
 
+.loginHeight{
+	height: 500px;
+}
+
 .color2{
 	color: #818181;
+}
+
+.loginPadding{
+	padding: 5px 50px;
+}
+
+.borderBottom{
+	border-bottom: 2px solid black;
+}
+
+.marginTop20{
+	margin: 20px 0 0 0;
+}
+
+.disabledBackground{
+	background-color: #cccccc;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.rightInitiate{
+	right: 15%;
+}
+
+.loginPage{
+	width: 350px;
+}
+
+.product{
+	width: 800px;
+}
+
+.widthSmallProduct{
+	width: 400px;	
 }
