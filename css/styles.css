@@ -83,7 +83,7 @@ body{
 }
 
 .border1{
-	border: 1px #464646 solid;
+	border: 1px solid #464646;
 }
 
 .zIndex{
@@ -149,6 +149,10 @@ body{
 
 .fontSize24{
 	font-size: 24px;
+}
+
+.fontSize14{
+	font-size: 14px;
 }
 
 .widthShoes{
@@ -282,9 +286,21 @@ body{
 }
 
 .product{
-	width: 800px;
+	width: 840px;
 }
 
 .widthSmallProduct{
-	width: 400px;	
+	width: 420px;	
+}
+
+.marginBottomProduct{
+	margin: 0 0 30px 0;
+}
+
+.fontWeightLow{
+	font-weight: 100;
+}
+
+.paddingTopProduct{
+	padding: 50px 0 0 0;
 }
